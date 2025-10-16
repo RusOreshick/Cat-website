@@ -1,0 +1,321 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+}
+
+#main_background{
+    background-color: #c0c0c0;
+    height: 1300px;
+}
+
+#background{
+    width: 1200px;
+    height: 1206px;
+    opacity: 1;
+    top: 40px;
+    left: 40px;
+    border-radius: 40px;
+    position: relative;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+#left_bar{
+    width: 370px;
+    height: 1206px;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    border-radius: 40px;
+    position: absolute;
+    background: #E0EBFEB2;
+    font-size: 16px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+#profile_picture{
+    width: 370px;
+    height: 370px;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    border-radius: 40px;
+    display: block;
+    margin-bottom: 30px;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+
+#add_friend_button{
+    width: 290px;
+    height: 48px;
+    opacity: 1;
+    top: 450px;
+    left: 80px;
+    border-radius: 16px;
+    gap: 10px;
+    display: block;
+    margin-bottom: 16px;
+    position: static;
+    padding-top: 14px;
+    padding-right: 16px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+    background-color: #7549EA;
+    color: #fff;
+    border-color: #7549EA;
+    border-style: solid;
+}
+
+#invite_for_a_walk_button{
+    width: 290px;
+    height: 48px;
+    top: 514px;
+    left: 80px;
+    border-radius: 16px;
+    padding-top: 14px;
+    padding-right: 16px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+    gap: 10px;
+    opacity: 1;
+    border-width: 1px;
+    display: block;
+    margin-bottom: 40px;
+    position: static;
+    border-color: #7549EA;
+    color: #7549EA;
+    background-color: #E0EBFEB2;
+    border-style: solid;
+}
+
+#my_friends{
+    width: 290;
+    height: 107;
+    top: auto;
+    left: auto;
+    gap: 16px;
+    opacity: 1;
+    font-size: 22px;
+    margin-bottom: 30px;
+    position: static;
+}
+
+#my_friends_icons{
+    width: 290;
+    height: 64;
+    opacity: 1;
+    display: flex;
+}
+
+.my_friends_icons{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    margin-right: -20px;
+}
+
+#interests{
+    width: 290px;
+    height: auto;
+    top: auto;
+    left: auto;
+    gap: 16px;
+    opacity: 1;
+    position: static;
+    max-width: 100%;
+}
+
+.interests_header{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.interests{
+    list-style: none;
+    word-spacing: 10px;
+    display: flex;
+    gap: 8px;
+    opacity: 1;
+    max-width: 100%;
+    padding: 0;
+}
+
+#interests_list{
+    width: 100%;
+    height: auto;
+    gap: 8px;
+    opacity: 1;
+    position: static;
+    padding: 0;
+    margin: 0;
+}
+
+.interests_item{
+    display: inline;
+    padding: 8px;
+    border-radius: 7px;
+    background-color: rgba(117, 73, 234, 0.2);
+    color: #7549EA;
+}
+
+#right_field{
+    position: absolute;
+    width: 1200px;
+    height: 1200px;
+}
+
+#name{
+    width: 203;
+    height: 55;
+    top: 80px;
+    left: 470px;
+    gap: 12px;
+    opacity: 1;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.name{
+    margin: 0;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 45px;
+}
+
+#check{
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#about_me{
+    width: 170;
+    height: 107;
+    top: 160px;
+    left: 470px;
+    gap: 8px;
+    opacity: 1;
+    position: absolute;
+}
+
+#about_me_text{
+    width: 164;
+    height: 72;
+    gap: 24px;
+    opacity: 1;
+    font-size: 14px;
+}
+
+#age, #gender, #breed{
+    font-weight: 600;
+}
+
+#my_human{
+    width: 277px;
+    height: 107px;
+    top: 330px;
+    left: 470px;
+    gap: 8px;
+    opacity: 1;
+    position: absolute;
+}
+
+#my_human_data{
+    width: 277;
+    height: 72;
+    font-size: 14px;
+}
+
+#name_human, #contact, #mail{
+    font-weight: 600;
+}
+
+.mail{
+    color: #7549EA;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#description{
+    width: 710;
+    height: 120;
+    top: 485px;
+    left: 470px;
+    opacity: 1;
+    position: absolute;
+    color: rgba(74, 81, 97, 1);
+    font-size: 14px;
+}
+
+#line{
+    width: 710px;
+    height: 1px;
+    top: 620px;
+    left: 470px;
+    opacity: 1;
+    background-color: rgb(181, 181, 181, 1);
+    position: absolute;
+    border: none;
+}
+
+#favorit_games{
+    width: 633.0989990234375;
+    height: 115;
+    top: 630px;
+    left: 470px;
+    gap: 16px;
+    opacity: 1;
+    position: absolute;
+}
+
+#favorit_games_list{
+    list-style: none;
+}
+
+#favorit_games_list{
+    font-weight: 600;
+}
+
+.normal_text{
+    font-weight: normal;
+}
+
+.link{
+    color: #7549EA;
+    font-weight: 600;
+}
+
+#achievements{
+    width: 481.0989685058594;
+    height: 347;
+    top: 770px;
+    left: 470px;
+    gap: 16px;
+    opacity: 1;
+    position: absolute;
+}
+
+#achievements_list{
+    list-style: none;
+    font-weight: 600;
+}
+
+.achievements_list2{
+    font-weight: normal;
+    list-style: disc;
+}
+
+#favorite_food{
+    width: 240;
+    height: 67;
+    top: 1080px;
+    left: 470px;
+    gap: 16px;
+    opacity: 1;
+    position: absolute;
+}
